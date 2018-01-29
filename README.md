@@ -4,9 +4,6 @@
 
 <div align="center">
   <a href="https://www.npmjs.com/package/node-steam-market-crawler">
-    <img src="https://img.shields.io/npm/v/node-imdb-scraper.svg?style=flat-square" alt="Version" />
-  </a>
-  <a href="https://www.npmjs.com/package/node-steam-market-crawler">
     <img src="https://img.shields.io/npm/dm/node-imdb-scraper.svg?style=flat-square" alt="Downloads" />
   </a>
   <a href="https://github.com/pepzwee/node-imdb-scraper">
