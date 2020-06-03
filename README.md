@@ -1,4 +1,4 @@
-# IMDB Scraper [![npm](https://img.shields.io/npm/v/netifriik/imdb-scraper.svg?maxAge=3600)](https://www.npmjs.com/package/imdb-scraper)
+# IMDB Scraper [![npm](https://img.shields.io/npm/v/imdb-scraper.svg?maxAge=3600)](https://www.npmjs.com/package/imdb-scraper)
 
 > A simple Promise based IMDB scraper
 
