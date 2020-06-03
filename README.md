@@ -1,34 +1,43 @@
-<h1 align="center">Node.js IMDB Scraper</h1>
+# IMDB Scraper [![npm](https://img.shields.io/npm/v/netifriik/imdb-scraper.svg?maxAge=3600)](https://www.npmjs.com/package/imdb-scraper)
 
-<h5 align="center">Scrape data from IMDB pages.</h5>
+> A simple Promise based IMDB scraper
 
-<div align="center">
-  <a href="https://www.npmjs.com/package/imdb-scraper">
-    <img src="https://img.shields.io/npm/dw/localeval.svg?style=flat-square" alt="npm" />
-  </a>
-  <a href="https://github.com/pepzwee/node-imdb-scraper/blob/master/LICENSE">
-    <img src="https://img.shields.io/npm/l/express.svg?style=flat-square" alt="License" />
-  </a>
-</div>
+### Install
 
-<br />
+```console
+npm install imdb-scraper
+```
+
+### Example
 
 ```js
 const IMDBScraper = require('imdb-scraper')
 const Imdb = new IMDBScraper()
 
 Imdb.title('tt3896198')
-    .then(res => console.log(res))
-    .catch(err => console.log(err))
+  .then(res => console.log(res))
+  .catch(err => console.log(err))
 ```
 
-## Installation
-`npm install imdb-scraper`
+### Usage
 
-## Donate
+#### Constructor Options
+
+```js
+{
+  // Request defaults to change headers, use proxies, etc..
+  requestDefaults: {},
+  // How many retries before request fails
+  maxRetries: 3
+}
 ```
-BTC: 1Monu1inZHHV4bVfhq9SyfLAsGM2x8dhSE
-ETH: 0x9F73bd17CCC4fd12800Bda6F63e708476ba311fC
-LTC: LTVuvzqq3vuAqHD5VF8zE6naUDjy3Tbr5E
-XMR: 42kQNeiVWvxZickcq5o4F1h3z9h6LsdLbibZd4XKUbzxDzjDJAGmSkJF7K4mfLsq8pe5u24t1qENg5TUin5gDeqBVqEBgt6
-```
+
+### Methods
+
+#### title(tmdbId)
+#### episodes(tmdbId, season = 1)
+#### search(string || object)
+
+### Contributions
+
+Contributions are welcome, make a PR.
